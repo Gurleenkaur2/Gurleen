@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body {
+        height: 100%;
+}
+
+.loginOption-section {
+        background: #f9f9f9;
+        min-height: 100%;
+        position: relative;
+        padding: 100px 0;
+}
+
+.loginOption-section::before {
+        content: '';
+        background: #f9f9f9;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 450px;
+}
+
+.loginOption-section .container {
+        position: relative;
+        z-index: 1;
+}
+
+.loginOption-section__logo {
+        max-width: 220px;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+            
+.loginOption-section__logo  img{
+        width: 100%;
+}
+
+.loginOption-section__list--card {
+        box-shadow: 0 0 36px rgba(0, 0, 0, 0.06);
+        padding: 30px;
+        border-radius: 15px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        color: #111;
+        border: 1px solid #ececed;
+        background: #fff;
+        margin-bottom: 30px;
+}
+
+.loginOption-section__list--card .card-body {
+    min-height: 140px;
+}
+.loginOption-section__list--card span {
+    display: inline-block;
+}
+
+.loginOption-section__list--card span img {
+    width: auto;
+    height: 60px;
+}
+
+.loginOption-section__list--card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+}
+.loginOption-section__list--card p {
+    
+}
+.loginOption-section__list--card a {
+font-size: 14px;
+line-height: 14px;
+font-weight: bold;
+color: #fff;
+display: inline-block;
+background: #da1010;
+padding: 9px 17px;
+text-decoration: none;
+border-radius: 30px;
+}
+
+.loginOption-section__list--card a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #111
+}
+            
